@@ -1,0 +1,128 @@
+img {
+  height: 10rem;
+  width: 12%;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: white;
+  padding: 4px;
+  transition: all 0.4s;
+}
+
+.image {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  border-color: white;
+}
+
+img:hover {
+  transition: all 0.4s;
+  border-radius: 5%;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+body {
+  background-color: black;
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  font-family: "Caveat", cursive;
+  font-family: "Libre Baskerville", serif;
+  font-family: "PT Serif", serif;
+}
+.name {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  margin: 0 auto;
+  width: 90%;
+  border: 0;
+  height: 4px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.skills {
+  color: #191923;
+}
+
+a {
+  margin: 1rem;
+  color: white;
+}
+a:hover {
+  color: gold;
+}
+
+.popover-title {
+  color: black;
+}
+
+.container {
+  color: white;
+}
+
+@media (min-width: 1202px) and (max-width: 1398px) {
+  img {
+    height: 9rem;
+    width: 12.5%;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: white;
+    padding: 4px;
+    transition: all 0.4s;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1202px) {
+  img {
+    height: 8rem;
+    width: 12.8%;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: white;
+    padding: 4px;
+    transition: all 0.4s;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 990px) {
+  img {
+    height: 10rem;
+    width: 19%;
+    border-radius: 5%;
+    object-fit: cover;
+    background-color: white;
+    padding: 4px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+      rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+      rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+  img {
+    height: 9rem;
+    width: 25%;
+    border-radius: 5%;
+    object-fit: cover;
+    background-color: white;
+    padding: 4px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+      rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+      rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  }
+}
